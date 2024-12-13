@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Dhanreigh Atienza</h1>
+            </div>
+            <button id="theme-toggle" class="theme-toggle">🌙</button>
+        </div>
+    </header>    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Portfolio of [Your Name]">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico">
+    <title>Interactive Portfolio Webpage</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Interactive Portfolio Webpage</h1>
+            </div>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="about">
+            <div class="container">
+                <div class="content">
+                    <img src="images/final.png" alt="Dhanreigh Atienza" class="profile-pic">
+                    <div>
+                        <h2>About Me</h2>
+                        <p>Hello! I'm Dhanreigh Atienza, a student & aspiring software developer. I enjoy solving problems and building innovative solutions that help people.</p>
+                        <p>As a 1st-year BSCS student, I am building a strong foundation in computer science principles and programming. With a keen interest in technology, I am eager to explore areas such as coding, data structures, and problem-solving. My current focus is on developing core skills to tackle basic programming tasks, understand computational logic, and collaborate effectively in group projects. I am driven by curiosity and committed to enhancing my knowledge as I embark on this academic journey.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>My Skills</h2>
+                <div class="skills-list">
+                    <div class="skill-item">
+                        <h3>Problem-Solving</h3>
+                        <p>Developing logical thinking and analytical skills to break down problems, devise solutions, and implement them effectively in programming and other technical tasks.</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3>Basic Programming</h3>
+                        <p>Understanding and applying foundational programming concepts using beginner-friendly languages such as C++, html and CSS. This includes writing, debugging, and executing basic code.</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3>Time Management</h3>
+                        <p>Organizing and prioritizing academic responsibilities to meet deadlines for assignments, projects, and exams efficiently.</p>
+                    </div>
+                    <div class="skill-item">
+                        <h3>Eagerness to Learn</h3>
+                        <p>Demonstrating curiosity and enthusiasm to explore new technologies, programming techniques, and theoretical knowledge in computer science.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>Email: <a href="mailto:dhanreighatienza@gmail.com">dhanreighatienza@gmail.com</a></p>
+                <p>Facebook: <a href="https://www.facebook.com/dhannzxc" target="_blank">https://www.facebook.com/dhannzxc</a></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Dhanreigh Atienza. Built with passion and creativity.</p>
+    </footer>
+</body>
+</html>
